@@ -1,26 +1,26 @@
 # Telco Customer Churn Prediction and Analysis
-This project aims to predict customer churn and analyze the factors contributing to it, enabling strategic resource allocation. By identifying customers at high risk of leaving and understanding the key drivers of their churn, the company can implement targeted retention strategies.
+**This project aims to predict customer churn and analyze the factors contributing to it, enabling strategic resource allocation. By identifying customers at high risk of leaving and understanding the key drivers of their churn, the company can implement targeted retention strategies.**
 
-Problem Statement:
+**Problem Statement:** <br/>
 The company wants to identify which customers are likely to churn in the future and understand the factors that cause customers to churn, as the company aims to allocate marketing costs carefully to save on marketing expenditures, since revenue is also a major concern.
 
-Objectives Analysis/Goals:
+**Objectives Analysis/Goals:** <br/>
 To build a machine learning model that can identify customers likely to churn and analyze the factors that cause customers to churn. This aims to enable the company to allocate time and resources effectively and efficiently.
 
-Target:
+**Target:** <br/>
 1 (Positive): Customer churn
 0 (Negative): Customer tidak churn
 
-Analytic Approach:
+**Analytic Approach:** <br/>
 Analyze the data, then select and build a classification machine learning model that can predict customers likely to churn.
 
-Metric Evaluation:
+**Metric Evaluation:** <br/>
 
-Type 1 error (False Positive):
-
+- Type 1 error (False Positive):
 Interpretation: Incorrectly predicting that a customer will churn (when they actually will not churn).
 Consequence: Financial loss due to offering special deals to customers who are not actually at risk of churning.
-Type 2 error (False Negative):
+
+- Type 2 error (False Negative):
 
 Interpretation: Incorrectly predicting that a customer will not churn (when they actually will churn).
 Consequence: Loss of customers due to not offering special deals to customers who are actually at risk of churning.
